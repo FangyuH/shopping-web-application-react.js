@@ -1,0 +1,35 @@
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+
+  .item {
+    width: 100%;
+    margin: 0 0 1rem;
+  }
+}
+
+/* Styles for screens larger than 600px */
+@media (min-width: 601px) {
+  .container {
+    padding: 1rem 2rem;
+  }
+
+  .item {
+    width: 45%;
+    margin: 0 0.5rem;
+  }
+}
+
+/* Styles for screens larger than 900px */
+@media (min-width: 900px) {
+  .container {
+    padding: 2rem;
+  }
+
+  .item {
+    width: 30%;
+    margin: 0 1rem;
+  }
+}
