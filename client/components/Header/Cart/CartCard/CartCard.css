@@ -1,0 +1,33 @@
+.cart-img {
+  width: 100px;
+  height: 80px;
+}
+
+.cartcard-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+#remove {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 320px) {
+  .cart-img {
+    width: 30px;
+    height: 10px;
+  }
+
+  .cartcard-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+  }
+
+  #remove {
+    text-decoration: underline;
+  }
+}

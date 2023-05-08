@@ -1,0 +1,28 @@
+.card-img {
+  padding: 8px;
+  border: solid rgb(194, 189, 189);
+}
+
+#add-button {
+  width: 60%;
+}
+
+#card-title {
+  text-decoration: underline;
+}
+
+.counter {
+  border: solid rgb(194, 189, 189);
+  border-radius: 8px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 375px) {
+}

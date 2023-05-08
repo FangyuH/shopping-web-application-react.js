@@ -1,0 +1,37 @@
+.create-product-container {
+  margin: auto;
+  text-align: center;
+}
+#title {
+  margin-top: 50px;
+}
+
+.create-form {
+  border: solid rgb(194, 189, 189);
+  background-color: rgb(255, 255, 255);
+  height: 839px;
+  width: 660px;
+  margin: auto;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  text-align: left;
+  padding: 5px;
+}
+
+.form-input {
+  align-items: stretch;
+}
+
+.form-group-border {
+  border-style: dotted;
+  border-width: 2px;
+  border-color: #cccccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 200px;
+  width: 350px;
+}

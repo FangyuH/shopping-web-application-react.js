@@ -1,0 +1,41 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 25px;
+}
+
+#notes-1 {
+  color: white;
+}
+
+.media-img {
+  height: 25px;
+}
+
+#facebook-img {
+  height: 19px;
+}
+
+.img-container {
+  display: block;
+  margin: auto;
+}
+
+.notes-2 {
+  color: white;
+  display: flex;
+  flex-grow: 0.2;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 375px) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 25px;
+  }
+}

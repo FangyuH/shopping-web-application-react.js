@@ -1,0 +1,21 @@
+#detailImage {
+  width: 600px;
+  height: 420px;
+  padding: 5px;
+}
+
+.detail-container {
+  border: solid rgb(194, 189, 189);
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  padding: 20px;
+  display: flex;
+}
+
+#addcart-button {
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+}
